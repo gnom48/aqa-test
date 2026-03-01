@@ -46,3 +46,6 @@ mvn test -Dtest=AuthenticationTests#testSuccessfulLogin
 mvn clean test
 mvn allure:serve
 ```
+
+## Postman коллекция
+Все завпросы к тестируемому приложению описаны в Postman коллекции в файле `AQA.postman_collection.json`.
