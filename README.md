@@ -11,7 +11,7 @@
 
 ## Стек:
 
-- **Java 25** - язык программирования
+- **Java** - язык программирования
 - **JUnit 5** - фреймворк для тестирования
 - **WireMock** - эмуляция внешнего сервиса
 - **REST Assured** - HTTP клиент для тестов
@@ -34,10 +34,10 @@
 mvn clean test
 
 # Запуск конкретного тестового класса
-mvn test -Dtest=AuthenticationTests
+mvn test -Dtest=LoginTests
 
 # Запуск конкретного теста
-mvn test -Dtest=AuthenticationTests#testSuccessfulLogin
+mvn test -Dtest=LoginTests#testSuccessfulLogin
 ```
 
 ### Запуск с отчетом Allure
